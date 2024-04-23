@@ -151,7 +151,7 @@
   .title {
     width: 80%;
     font-size: x-small;
-    margin-top: -40%;
+    margin-top: 8px;
   }
 
   .btn-container {
@@ -161,10 +161,11 @@
   .section-container {
     flex-wrap: wrap;
     width: 85%;
+    height: 450px;
   }
 
   .single-card {
-    height: 130%;
+    height: 640px;
     width: 95%;
   }
 
@@ -178,12 +179,16 @@
 }
 
 @media (768px <= width <= 1024px) {
+  .title {
+    margin-top: -325px;
+  }
   .section-container {
     flex-wrap: wrap;
   }
 
   .single-card {
     width: 32%;
+    height: 50%;
   }
 
   .product-img {
